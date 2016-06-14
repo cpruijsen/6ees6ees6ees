@@ -1,4 +1,6 @@
-import { expect } from 'chai';
+import {
+  expect
+} from 'chai';
 import ForagerBee from '../src/ForagerBee';
 
 describe('ForagerBee class functionality', () => {

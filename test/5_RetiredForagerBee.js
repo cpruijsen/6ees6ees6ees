@@ -1,4 +1,6 @@
-import { expect } from 'chai';
+import {
+  expect
+} from 'chai';
 import RetiredForagerBee from '../src/RetiredForagerBee';
 
 describe('RetiredForagerBee class functionality', () => {

@@ -1,4 +1,6 @@
-import { expect } from 'chai';
+import {
+  expect
+} from 'chai';
 import Bee from '../src/Bee';
 
 describe('Bee class functionality', () => {

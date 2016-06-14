@@ -1,8 +1,9 @@
 {
   "name": "6ees6ees6ees",
   "version": "1.0.0",
-  "babel": {
-    "/.babelrc"
+  "scripts": {
+    "test": "mocha --compilers js:babel-register",
+    "build": "babel input.js -o compiled.js"
   },
   "description": "Fun with ES6 classes (also bees)",
   "author": "Hack Reactor <curriculum.team@hackreactor.com>",
@@ -32,6 +33,5 @@
     "babel-register": "^6.9.0",
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
-  },
-  "presets": []
+  }
 }

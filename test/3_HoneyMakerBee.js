@@ -1,4 +1,6 @@
-import { expect } from 'chai';
+import {
+  expect
+} from 'chai';
 import HoneyMakerBee from '../src/HoneyMakerBee';
 
 describe('HoneyMakerBee class functionality', () => {

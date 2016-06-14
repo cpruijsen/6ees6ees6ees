@@ -1,4 +1,6 @@
-import { expect } from 'chai';
+import {
+  expect
+} from 'chai';
 import Grub from '../src/Grub';
 
 describe('Grub class functionality', () => {
@@ -25,4 +27,4 @@ describe('Grub class functionality', () => {
   it('should eat jelly', () => {
     expect(grub.eat()).to.equal('Mmmmmmmmm jelly');
   });
-});
+});;
